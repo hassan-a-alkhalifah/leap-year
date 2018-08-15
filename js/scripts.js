@@ -1,6 +1,11 @@
 // Business logic
 var leapYear = function(year) {
-  return false;
+  alert(year%4);
+  if(year % 4 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
 // jQuery user interface logic
